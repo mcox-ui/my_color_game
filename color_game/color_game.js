@@ -18,3 +18,9 @@ const squares = document.querySelectorAll(".square");
 for (let i = 0; i < squares.length; i++) {
     squares[i].style.backgroundColor = colors[i];
 }
+
+// 3. Deberás lograr que se muestre el código RGB del color ganador.
+// 3.1 Dentro del span #colorDisplay irá el código RGB del color ganador.
+// 3.2 Creá la Variable pickedColor. Dale un color específico del array que acabas de crear (por ejemplo colors[3]) y su valor al texto de #colorDisplay.
+// const pickedColor = colors[3];
+// document.getElementById("colorDisplay").textContent = pickedColor;

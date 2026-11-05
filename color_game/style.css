@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: #23232328;
+  /* background-color: #f40b0b28; */
   /* font-family: var(--font-primary); */
 }
 
@@ -52,14 +52,13 @@ header>h1 {
 
 /* nav */
 #stripe {
-  background-color: white;
+  /* background-color: white; */
   text-align: center;
-  /* border-radius: 4px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 65vw;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem auto;
 }
 
 #colorDisplay {
