@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B - The Great RGB Guessing Game</title>
+    <link rel="stylesheet" href="style_B.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1 id="h1">
+          The Great
+          <br />
+          <span id="colorDisplay"></span>
+          <br />
+          Guessing Game
+        </h1>
+      </header>
+
+      <nav id="stripe" aria-label="Controles del juego">
+        <button id="reset" type="button">Nuevos Colores</button>
+
+        <span id="message" aria-live="polite"></span>
+
+        <button class="selected" id="hard" type="button">HARD</button>
+
+        <button id="easy" type="button">EASY</button>
+      </nav>
+
+      <section class="container" aria-label="Opciones de colores">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </section>
+    </main>
+
+    <!-- <script src="color_game.js"></script> -->
+  </body>
+</html>

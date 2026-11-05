@@ -1,0 +1,79 @@
+
+/* Variables CSS */
+:root {
+    --color-background: #232323;
+    --color-surface: #ffffff;
+    --color-primary: tomato;
+    --color-hover: yellowgreen;
+    --color-text: #ffffff;
+    --color-text-dark: #000000;
+
+    --font-primary: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    --transition: 0.4s ease;
+    --radius: 4px;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-background);
+    font-family: var(--font-primary);
+}
+
+/* Encabezado */
+#h1 {
+    text-align: center;
+    color: var(--color-text);
+}
+
+/* Controles */
+#stripe {
+    height: 30px;
+    text-align: center;
+    background-color: var(--color-surface);
+    border-radius: var(--radius);
+}
+
+button {
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color var(--transition);
+}
+
+button:hover {
+    color: var(--color-text);
+    background-color: var(--color-hover);
+}
+
+.selected {
+    background-color: var(--color-primary);
+}
+
+#message {
+    display: inline-block;
+    width: 15%;
+    color: var(--color-text-dark);
+}
+
+/* Área de juego */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background-color: var(--color-surface);
+    border-radius: 15px;
+    transition: background-color 0.6s ease;
+}
